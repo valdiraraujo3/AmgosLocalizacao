@@ -14,6 +14,18 @@ namespace AmigosLocalizacao
             try
             {
                 //Instancias e Inicializações
+                if (DateTime.Now.Hour < 12)
+                {
+                    Console.WriteLine("Olá bom dia!");
+                }
+                else if(DateTime.Now.Hour < 18)
+                {
+                    Console.WriteLine("Olá boa tarde!");
+                }
+                else
+                {
+                    Console.WriteLine("Olá boa noite!");
+                }
 
                 Console.WriteLine("Entre com o código para pesquisa.");
                 codigoPesquisa = Console.ReadLine();

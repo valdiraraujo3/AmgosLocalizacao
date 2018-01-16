@@ -12,3 +12,17 @@ C:\Users\Gustavo Ferreira\Desktop\Teste_CNova_GPA\Amigos_Localizacao\AmigosLocal
 C:\Users\Gustavo Ferreira\Desktop\Teste_CNova_GPA\Amigos_Localizacao\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\AmigosLocalizacao.exe.config
 C:\Users\Gustavo Ferreira\Desktop\Teste_CNova_GPA\Amigos_Localizacao\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\AmigosLocalizacao.pdb
 C:\Users\Gustavo Ferreira\Desktop\Teste_CNova_GPA\Amigos_Localizacao\AmigosLocalizacao\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.csprojResolveAssemblyReference.cache
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\amigos_localizacao.mdf
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\amigos_localizacao_log.ldf
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\AmigosLocalizacao.exe.config
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\AmigosLocalizacao.exe
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\AmigosLocalizacao.pdb
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\EntityFramework.dll
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\Newtonsoft.Json.dll
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\System.Data.SqlServerCe.dll
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\EntityFramework.xml
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\bin\Debug\Newtonsoft.Json.xml
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.csprojResolveAssemblyReference.cache
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.csproj.CoreCompileInputs.cache
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.exe
+C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.pdb
