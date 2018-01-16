@@ -37,10 +37,10 @@ namespace AmigosLocalizacao
                     listaAmigos.Pesquisar(int.Parse(codigoPesquisa));
 
                     Console.WriteLine("{0}", "Código selecionado: " + "{" + codigoPesquisa + "}");
+                    Console.WriteLine("| Código |     | Nome |        | Cidade |      | Distâcia |");
 
                     foreach (var item in listaAmigos.Pesquisar(int.Parse(codigoPesquisa)))
                     {
-                        Console.WriteLine("| Código |    | Nome |        | Cidade |      | Distâcia |");
                         Console.WriteLine("{0,-15} {1,-15} {2,-15} {3,-15}", "{" + item.id + "}", item.nome_amigo, item.cidade, item.Distancia + " KM");
                     }
                 }
