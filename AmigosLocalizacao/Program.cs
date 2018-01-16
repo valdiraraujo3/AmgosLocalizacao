@@ -3,7 +3,7 @@ using System;
 
 namespace AmigosLocalizacao
 {
-    public class Program
+    class Program
     {
         public static void Main(string[] args)
         {
@@ -18,7 +18,7 @@ namespace AmigosLocalizacao
                 {
                     Console.WriteLine("Olá bom dia!");
                 }
-                else if(DateTime.Now.Hour < 18)
+                else if (DateTime.Now.Hour < 18)
                 {
                     Console.WriteLine("Olá boa tarde!");
                 }
@@ -34,11 +34,13 @@ namespace AmigosLocalizacao
                 {
                     ListaAmigosDAO listaAmigos = new ListaAmigosDAO();
 
+                    listaAmigos.Pesquisar(int.Parse(codigoPesquisa));
+
                     Console.WriteLine("{0}", "Código selecionado: " + "{" + codigoPesquisa + "}");
-                    Console.WriteLine("| Código |    | Nome |        | Cidade |      | Distâcia |");
 
                     foreach (var item in listaAmigos.Pesquisar(int.Parse(codigoPesquisa)))
                     {
+                        Console.WriteLine("| Código |    | Nome |        | Cidade |      | Distâcia |");
                         Console.WriteLine("{0,-15} {1,-15} {2,-15} {3,-15}", "{" + item.id + "}", item.nome_amigo, item.cidade, item.Distancia + " KM");
                     }
                 }

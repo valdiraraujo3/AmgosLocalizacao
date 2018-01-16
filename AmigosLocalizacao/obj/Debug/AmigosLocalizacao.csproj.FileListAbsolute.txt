@@ -26,3 +26,17 @@ C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\obj\Debug\AmigosLocaliz
 C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.csproj.CoreCompileInputs.cache
 C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.exe
 C:\Repositorio\AmigosLocalizacao_Local\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.pdb
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\amigos_localizacao.mdf
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\amigos_localizacao_log.ldf
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\AmigosLocalizacao.exe.config
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\AmigosLocalizacao.exe
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\AmigosLocalizacao.pdb
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\EntityFramework.dll
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\Newtonsoft.Json.dll
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\System.Data.SqlServerCe.dll
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\EntityFramework.xml
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\bin\Debug\Newtonsoft.Json.xml
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.csprojResolveAssemblyReference.cache
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.csproj.CoreCompileInputs.cache
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.exe
+C:\Repositorio\AmigosLocalizacao\AmigosLocalizacao\obj\Debug\AmigosLocalizacao.pdb
