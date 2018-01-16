@@ -5,9 +5,11 @@ Filtros:{
   Inserir um dos seguintes códigos para o obter retorno: [1,2,3,4,5,6,7,8,9,10].
 }
 
-Exemplo:{
+Exemplo:
+{
 Código selecionado: {3}
-Retorno{
+Retorno
+  {
 | Código |    | Nome |        | Cidade |      | Distâcia |
 {2}             Amigo2          Cotia           7,492 KM
 {9}             Amigo9          Carapicuíba     9,364 KM
