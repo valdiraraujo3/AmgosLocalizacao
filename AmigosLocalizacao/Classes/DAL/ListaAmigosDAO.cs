@@ -14,7 +14,7 @@ namespace AmigosLocalizacao.Classes.DAL
     {
         #region Métodos Publicos
 
-        public List<AmigosLocalizacaoModel> Pesquisar(int codigoPesquisa)
+        public List<AmigosLocalizacaoModel> Pesquisar(int codigoPesquisa, int top)
         {
             //Declarações
             string id = string.Empty;
@@ -22,7 +22,7 @@ namespace AmigosLocalizacao.Classes.DAL
             string cidade = string.Empty;
             string point = string.Empty;
             string distancia = string.Empty;
-                       
+            
             List<AmigosLocalizacaoModel> retorno = new List<AmigosLocalizacaoModel>();
 
             var linhas = new List<AmigosLocalizacaoModel>();
@@ -35,6 +35,7 @@ namespace AmigosLocalizacao.Classes.DAL
                     SqlCommand command = new SqlCommand("[dbo].[sp_sel_amigos]", conn);
                     command.CommandType = System.Data.CommandType.StoredProcedure;
                     command.Parameters.Add(new SqlParameter("@codigo", SqlDbType.Int)).Value = codigoPesquisa;
+                    command.Parameters.Add(new SqlParameter("@top", SqlDbType.Int)).Value = top;
                     conn.Open();
                     command.ExecuteNonQuery();
 

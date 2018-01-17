@@ -3,14 +3,20 @@ GO
 /*
 Autor: Francisco Valdir Araújo
 
-Testes: EXEC sp_amigos @id = 1
+Testes: EXEC sp_sel_amigos @codigo = 1, @top = 4
 
 */
 CREATE PROCEDURE sp_sel_amigos
 		 @codigo integer
+		 ,@top integer = 0
 AS
 	SET NOCOUNT ON; 
-		DECLARE @top INTEGER = 3	
+	if(@top <> 0)
+		SET @top = @top
+
+	ELSE 
+		SET @top = 3
+
 		DECLARE @lat DECIMAL(12,9) = (select latitude from Amigos where id = @codigo)
 		DECLARE @long DECIMAL(12,9) = (select longitude from Amigos where id = @codigo)
 		DECLARE @local geography = geography::Point(@long, @lat, 4326)

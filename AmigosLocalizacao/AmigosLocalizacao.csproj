@@ -76,6 +76,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Utils\Mensagens\Mensagens.cs" />
     <Compile Include="Classes\Model\AmigosLocalizacaoModel.cs" />
     <Compile Include="Classes\Conn\Conexao.cs" />
     <Compile Include="Classes\DAL\ListaAmigosDAO.cs" />
